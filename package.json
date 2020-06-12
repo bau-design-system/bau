@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "private": true,
+  "repository": "git@github.com:bau-design-system/bau.git",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

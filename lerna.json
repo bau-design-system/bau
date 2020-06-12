@@ -1,0 +1,15 @@
+{
+  "ignoreChanges": [
+    "**/__fixtures__/**",
+    "**/__tests__/**",
+    "**/docs/**",
+    "**/e2e/**",
+    "**/examples/**",
+    "**/*.md"
+  ],
+  "npmClient": "npm",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent"
+}
