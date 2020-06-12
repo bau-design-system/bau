@@ -4,6 +4,9 @@
   "license": "Apache-2.0",
   "private": true,
   "repository": "git@github.com:bau-design-system/bau.git",
+  "scripts": {
+    "release": "lerna publish --yes --conventional-commits --create-release github"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }

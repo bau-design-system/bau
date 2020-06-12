@@ -11,5 +11,9 @@
   "packages": [
     "packages/*"
   ],
+  "publish": {
+    "allowBranch": "master",
+    "message": "ci(release): releasing packages using lerna [skip-ci]"
+  },
   "version": "independent"
 }

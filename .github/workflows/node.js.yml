@@ -29,3 +29,29 @@ jobs:
         npm ci
         npm run build --if-present
         npm test --if-present
+
+  release:
+    name: Version packages
+    if: github.ref == 'refs/heads/master'
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 #tags are needed for lerna to work right
+    - uses: oleksiyrudenko/gha-git-credentials@v1
+      with:
+        token: '${{ secrets.GITHUB_TOKEN }}'
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run release --if-present
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
