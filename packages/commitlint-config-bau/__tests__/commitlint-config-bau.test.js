@@ -1,5 +1,5 @@
 const commitlintConfigBau = require('..')
 
-describe('@bau/commitlint-config-bau', () => {
+describe('@bau-design/commitlint-config-bau', () => {
   it.skip('needs tests')
 })
