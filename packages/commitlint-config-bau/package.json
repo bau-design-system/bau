@@ -1,0 +1,14 @@
+{
+  "name": "@bau-design/commitlint-config-bau",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": "git@github.com:bau-design-system/bau.git",
+  "bugs": "https://github.com/bau-design-system/bau/issues",
+  "peerDependencies": {
+    "@commitlint/cli": "^6.0.0"
+  },
+  "dependencies": {
+    "@commitlint/config-angular": "^8.3.4"
+  }
+}
