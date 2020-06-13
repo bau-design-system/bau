@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/bau-design-system/bau/compare/@bau-design/commitlint-config-bau@0.1.2...@bau-design/commitlint-config-bau@0.1.3) (2020-06-13)
+
+
+### Bug Fixes
+
+* **deps:** remove git reference from package.json ([e0a1ea5](https://github.com/bau-design-system/bau/commit/e0a1ea5a9d5e4f258423b96e2c327c212eb6b96b))
+
+
+
+
+
 ## [0.1.2](https://github.com/bau-design-system/bau/compare/@bau-design/commitlint-config-bau@0.1.1...@bau-design/commitlint-config-bau@0.1.2) (2020-06-13)
 
 
