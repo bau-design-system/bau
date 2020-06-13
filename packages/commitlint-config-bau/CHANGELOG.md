@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/bau-design-system/bau/compare/@bau-design/commitlint-config-bau@0.1.1...@bau-design/commitlint-config-bau@0.1.2) (2020-06-13)
+
+
+### Bug Fixes
+
+* **deps:** bump @commitlint/cli peer dep to expected 8.3.5 ([dc048d2](https://github.com/bau-design-system/bau/commit/dc048d257ebd4c6a2970181243a9a7d7510cbe33))
+
+
+
+
+
 ## [0.1.1](https://github.com/bau-design-system/bau/compare/@bau-design/commitlint-config-bau@0.1.0...@bau-design/commitlint-config-bau@0.1.1) (2020-06-13)
 
 
