@@ -6,7 +6,7 @@ Verify commit messages follow standard syntax
 
 ### Install
 ```
-npm install --save-dev @commitlint/cli @bau/commitlint-config-bau
+npm install --save-dev @commitlint/cli @bau-design/commitlint-config-bau
 ```
 
 ### Configure
@@ -14,7 +14,7 @@ Add the following section to your `package.json`
 
 ```
 "commitlint": {
-  "extends": "@bau/commitlint-config-bau"
+  "extends": ["@bau-design/commitlint-config-bau"]
 }
 ```
 
