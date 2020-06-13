@@ -8,6 +8,17 @@
     "release": "lerna publish --yes --conventional-commits --create-release github"
   },
   "devDependencies": {
+    "@bau-design/commitlint-config-bau": "^0.1.1",
+    "@commitlint/cli": "^8.3.5",
+    "husky": "^4.2.5",
     "lerna": "^3.22.1"
+  },
+  "commitlint": {
+    "extends": ["@bau-design/commitlint-config-bau"]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
   }
 }
