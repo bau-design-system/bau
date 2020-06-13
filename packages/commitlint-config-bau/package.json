@@ -13,6 +13,5 @@
   },
   "dependencies": {
     "@commitlint/config-angular": "^8.3.4"
-  },
-  "gitHead": "a49f1b3392a95e444671354904278651856aa7cf"
+  }
 }
