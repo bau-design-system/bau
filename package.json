@@ -5,7 +5,7 @@
   "private": true,
   "repository": "git@github.com:bau-design-system/bau.git",
   "scripts": {
-    "release": "lerna publish --yes --conventional-commits --create-release github"
+    "release": "lerna publish --yes --create-release github"
   },
   "devDependencies": {
     "@bau-design/commitlint-config-bau": "^0.1.1",
