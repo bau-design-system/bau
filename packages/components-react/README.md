@@ -1,6 +1,6 @@
 # `@bau-design/components-react`
 
-> TODO: description
+A React component library using the [Bau design system](https://github.com/bau-design-system/bau)
 
 ## Usage
 
