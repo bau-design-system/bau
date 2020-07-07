@@ -1,6 +1,6 @@
 # `@bau-design/components-react`
 
-> TODO: description
+A React component library using the [Bau design system](https://github.com/bau-design-system/bau)
 
 ## Usage
 
@@ -11,4 +11,4 @@ npm install --save @bau-design/compnents-react
 ```
 
 ### Components
-* [Card](molecules/card/card.md)
+* [Card](src/components/molecules/card/card.md)

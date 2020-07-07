@@ -10,7 +10,7 @@
     "components"
   ],
   "author": "Anthony McLin <git@anthonymclin.com>",
-  "homepage": "https://github.com/bau-design-system/bau",
+  "homepage": "https://github.com/bau-design-system/bau/tree/master/packages/components-react",
   "license": "ISC",
   "main": "src/components/index.js",
   "directories": {
