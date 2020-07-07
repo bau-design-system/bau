@@ -11,4 +11,4 @@ npm install --save @bau-design/compnents-react
 ```
 
 ### Components
-* [Card](molecules/card/card.md)
+* [Card](src/components/molecules/card/card.md)
