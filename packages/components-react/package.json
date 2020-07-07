@@ -1,0 +1,36 @@
+{
+  "name": "@bau-design/components-react",
+  "version": "0.0.1",
+  "description": "Bau Design System component library for React",
+  "keywords": [
+    "bau",
+    "design",
+    "system",
+    "react",
+    "components"
+  ],
+  "author": "Anthony McLin <git@anthonymclin.com>",
+  "homepage": "https://github.com/bau-design-system/bau",
+  "license": "ISC",
+  "main": "src/components/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bau-design-system/bau.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/bau-design-system/bau/issues"
+  }
+}
