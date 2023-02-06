@@ -11,7 +11,7 @@
     "@bau-design/commitlint-config-bau": "^0.1.1",
     "@commitlint/cli": "^8.3.5",
     "husky": "^4.2.5",
-    "lerna": "^3.22.1"
+    "lerna": "^6.4.1"
   },
   "commitlint": {
     "extends": ["@bau-design/commitlint-config-bau"]
